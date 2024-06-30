@@ -1,0 +1,22 @@
+.contact-us-section {
+  background-color: #4b78b4;
+  color: #fff;
+}
+.contact-us-section .form-control {
+  background-color: #6b8eb9;
+  border: 1px solid #6b8eb9;
+  color: #fff;
+}
+.contact-us-section .form-control:focus {
+  background-color: #7f9ecb;
+  color: #fff;
+}
+.contact-us-section .btn-primary {
+  background-color: #fff;
+  color: #4b78b4;
+  border: 1px solid #fff;
+}
+.contact-us-section .btn-primary:hover {
+  background-color: #e0e0e0;
+  color: #4b78b4;
+}

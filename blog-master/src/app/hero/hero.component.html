@@ -1,0 +1,12 @@
+<div class="hero-container">
+  <img [src]="currentImage" alt="Main Image" class="hero-image">
+  <div class="image-overlay">
+    <p>{{currentDate}}</p>
+    <h1>{{currentTitle}}</h1>
+    <p>{{currentDescription}}</p>
+    <div class="nav-buttons">
+      <button class="prev-btn" (click)="prev()">Prev</button>
+      <button class="next-btn" (click)="next()">Next</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+<div class="container py-5">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-6 mb-4" *ngFor="let blog of blogs">
+          <div class="card">
+            <img src="{{ blog.image }}" class="card-img-top" alt="{{ blog.title }}">
+            <div class="card-body">
+              <div class="blog-meta mb-2 text-muted">
+                <span class="me-2"><i class="bi bi-person"></i> {{ blog.author }}</span> |
+                <span class="me-2"><i class="bi bi-calendar"></i> {{ blog.date }}</span> |
+                <span class="me-2"><i class="bi bi-eye"></i> {{ blog.views }}</span>
+              </div>
+              <h5 class="card-title">{{ blog.title }}</h5>
+              <a href="#" class="btn btn-outline-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Blog Search</h5>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <button class="btn btn-outline-secondary" type="button">Go!</button>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Recent Posts</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+            <li><a href="#">Et animi voluptatem</a></li>
+            <li><a href="#">Ducimus magni eveniet</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
