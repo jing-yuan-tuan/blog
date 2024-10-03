@@ -1,34 +1,43 @@
 .navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 20px 40px;
-  color: white;
-  background: transparent;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  background: transparent; /* Fully transparent background */
+  color: #333;
+  display: flex;
+  justify-content: flex-start; /* Align everything to the left */
+  align-items: center;
   z-index: 10;
-  border-bottom: 1px dotted rgba(255, 255, 255, 0.5); /* Subtle dotted underline */
+  border-bottom: none; /* No underline */
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 2rem; /* Larger logo for better emphasis */
   font-weight: bold;
+  color: #007bff; /* Blue color to match the theme */
+  margin-right: 40px; /* Add spacing between the logo and the nav items */
 }
 
 nav {
   display: flex;
-  gap: 20px;
+  gap: 30px; /* Increase spacing for a more visually pleasing layout */
 }
 
 nav a {
-  color: white;
+  color: #333;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.25rem; /* Larger font size for better visibility */
+  font-weight: bold; /* Bold for visual clarity */
+  transition: color 0.3s, transform 0.3s;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #007bff; /* Highlight link on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover for emphasis */
+}
+
+.active {
+  border-bottom: 2px solid #007bff; /* Underline the active link */
 }

@@ -1,0 +1,31 @@
+.cuisines-container {
+    padding: 40px;
+    background: #f8f9fa;
+    color: #333;
+  }
+  
+  .cuisine-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .cuisine-card {
+    width: calc(33% - 20px);
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cuisine-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  

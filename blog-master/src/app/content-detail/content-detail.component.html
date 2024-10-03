@@ -1,0 +1,16 @@
+<div class="content-inner">
+    <div class="article-header">
+      <h2>{{ contentSet.currentAuthor }}</h2>
+      <p>{{ contentSet.currentCategory }}</p>
+    </div>
+    <div class="article-content">
+      <p>{{ contentSet.currentContent }}</p>
+      <img [src]="contentSet.currentArticleImage" alt="Article Image" class="article-image">
+      <div class="quote">{{ contentSet.currentQuote }}</div>
+      <p>{{ contentSet.currentAdditionalContent }}</p>
+      <div class="additional-images">
+        <img *ngFor="let img of contentSet.currentAdditionalImages" [src]="img" alt="Additional Image" class="additional-image">
+      </div>
+    </div>
+  </div>
+  

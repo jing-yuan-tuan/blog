@@ -1,0 +1,24 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px; /* Leave space for the top navbar */
+    height: 100vh; /* Full height to resemble a book's vertical alignment */
+  }
+  
+  .left-half {
+    width: 50%; /* Equal division to mimic book pages */
+    background: #f5f5f5; /* Light gray color for a subtle paper-like look */
+    color: #333;
+    padding: 40px;
+    border-right: 2px solid #e0e0e0; /* Divider to give a book page effect */
+    overflow-y: auto;
+  }
+  
+  .right-half {
+    width: 50%; /* Equal division to mimic book pages */
+    background: #ffffff; /* White color to give a clean contrast */
+    color: #333;
+    padding: 40px;
+    overflow-y: auto;
+  }
+  

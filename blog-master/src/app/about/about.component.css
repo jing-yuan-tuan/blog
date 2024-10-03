@@ -1,18 +1,36 @@
-.about-us-section {
-  background-color: #f8f9fa;
+.about-container,
+.contact-container {
+  padding: 40px;
+  background: #f8f9fa;
+  color: #333;
 }
-.about-us-section .row {
-  margin-bottom: 50px;
-}
-.about-us-section h2 {
-  font-size: 1.75rem;
+
+h1 {
   margin-bottom: 20px;
 }
-.about-us-section p {
-  font-size: 1rem;
-  line-height: 1.5;
+
+.form-group {
+  margin-bottom: 20px;
 }
-.about-us-section img {
-  max-width: 80%;
-  height: auto;
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
 }

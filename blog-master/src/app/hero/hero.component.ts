@@ -13,9 +13,9 @@ export class HeroComponent implements OnInit {
   @Input() prev!: () => void;
   @Input() next!: () => void;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void { }
+  ngOnInit(): void {}
 
   fadeOutAndChangeImage(next: boolean) {
     const imageElement = document.querySelector('.hero-image') as HTMLElement;

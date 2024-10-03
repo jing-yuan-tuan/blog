@@ -14,7 +14,7 @@ export class BlogComponent implements OnInit {
       views: 114,
       title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
     },
-    // Add more blog objects as needed
+
   ];
 
   constructor() { }

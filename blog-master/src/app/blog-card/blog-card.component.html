@@ -1,0 +1,13 @@
+<div class="card">
+    <img [src]="blog.image" class="card-img-top" [alt]="blog.title">
+    <div class="card-body">
+      <div class="blog-meta mb-2 text-muted">
+        <span class="me-2"><i class="bi bi-person"></i> {{ blog.author }}</span> |
+        <span class="me-2"><i class="bi bi-calendar"></i> {{ blog.date }}</span> |
+        <span class="me-2"><i class="bi bi-eye"></i> {{ blog.views }}</span>
+      </div>
+      <h5 class="card-title">{{ blog.title }}</h5>
+      <a href="#" class="btn btn-outline-dark">Read More</a>
+    </div>
+  </div>
+  

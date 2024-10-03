@@ -8,36 +8,69 @@ import { Component } from '@angular/core';
 export class AppComponent {
   contentSets = [
     {
-      currentImage: '/assets/images/h6-blog-post-img-17.jpg',
-      currentDate: 'Apr 15, 2020',
-      currentTitle: 'Your Trip Across Europe the Right Way',
-      currentDescription: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum...',
-      currentAuthor: 'John Doe',
-      currentCategory: 'Travel, Adventure',
-      currentContent: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum...',
-      currentQuote: 'North Atlantic island sit dolor inspiration for life is a pseudo Latin text used in web design.',
-      currentArticleImage: '/assets/images/h6-blog-post-img-16-1.jpg',
-      currentAdditionalContent: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...',
-      currentAdditionalImages: [
-        '/assets/images/h6-blog-post-img-17.jpg',
-        '/assets/images/h6-blog-post-img-16-1.jpg'
-      ]
-    },
-    {
-      currentImage: '/images/h4-feautured-img.jpg',
+      currentImage: '/assets/images/mountains.jpg',
       currentDate: 'Mar 20, 2020',
       currentTitle: 'Exploring the Mountains of Iceland',
-      currentDescription: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...',
-      currentAuthor: 'Jane Doe',
+      currentDescription: 'Experience the beauty of the untouched wilderness in Iceland.',
+      currentAuthor: 'Jing Yuan Tuan',
       currentCategory: 'Nature, Exploration',
-      currentContent: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...',
+      currentContent: 'Exploring the rugged terrain of Iceland is a once-in-a-lifetime opportunity. The vast landscapes and breathtaking views make it an unforgettable journey.',
       currentQuote: 'The beauty of Iceland lies in its untouched wilderness and breathtaking landscapes.',
-      currentArticleImage: '/images/greenland-1962998_1280.jpg',
-      currentAdditionalContent: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...',
-      currentAdditionalImages: [
-        '/images/h6-blog-post-img-16-1.jpg',
-        '/images/h6-blog-post-img-17.jpg'
-      ]
+      currentArticleImage: '/assets/images/iceland.jpg',
+      currentAdditionalContent: 'From glaciers to volcanic hot springs, Iceland offers a unique variety of natural attractions.',
+      currentAdditionalImages: ['/assets/images/landscape1.jpg', '/assets/images/landscape2.jpg']
+    },
+    {
+      currentImage: '/assets/images/europe.jpg',
+      currentDate: 'Apr 15, 2021',
+      currentTitle: 'Your Trip Across Europe the Right Way',
+      currentDescription: 'Travel across Europe and explore historical wonders.',
+      currentAuthor: 'Jing Yuan Tuan',
+      currentCategory: 'Travel, Adventure',
+      currentContent: 'Europe is a diverse continent with so much to explore, from iconic cities to quaint villages.',
+      currentQuote: 'Traveling across Europe gives you a taste of culture, history, and adventure.',
+      currentArticleImage: '/assets/images/europe-trip.jpg',
+      currentAdditionalContent: 'Discover famous landmarks, sample incredible food, and meet people from all walks of life.',
+      currentAdditionalImages: ['/assets/images/europe1.jpg', '/assets/images/europe2.jpg']
+    },
+    {
+      currentImage: '/assets/images/food.jpg',
+      currentDate: 'May 5, 2019',
+      currentTitle: 'A Taste of Italy: Culinary Journey',
+      currentDescription: 'Experience the culinary delights of Italy.',
+      currentAuthor: 'Jing Yuan Tuan',
+      currentCategory: 'Food, Cuisine',
+      currentContent: 'Italian cuisine is world-renowned for its rich flavors and comforting dishes. From pasta to pizza, each dish has its own story.',
+      currentQuote: 'Good food brings people together and makes every experience special.',
+      currentArticleImage: '/assets/images/italian-food.jpg',
+      currentAdditionalContent: 'Join us on a journey through Italy\'s iconic culinary scene, savoring authentic flavors.',
+      currentAdditionalImages: ['/assets/images/food1.jpg', '/assets/images/food2.jpg']
+    },
+    {
+      currentImage: '/assets/images/japan.jpg',
+      currentDate: 'Jun 12, 2018',
+      currentTitle: 'A Walk Through Kyoto, Japan',
+      currentDescription: 'Explore the culture and beauty of Kyoto, Japan.',
+      currentAuthor: 'Jing Yuan Tuan',
+      currentCategory: 'Culture, Travel',
+      currentContent: 'Kyoto is known for its classical Buddhist temples, as well as gardens, imperial palaces, Shinto shrines, and traditional wooden houses.',
+      currentQuote: 'Kyoto brings you closer to the traditional heart of Japan.',
+      currentArticleImage: '/assets/images/kyoto.jpg',
+      currentAdditionalContent: 'Take a stroll through the iconic Arashiyama Bamboo Grove and marvel at the natural beauty of the city.',
+      currentAdditionalImages: ['/assets/images/kyoto1.jpg', '/assets/images/kyoto2.jpg']
+    },
+    {
+      currentImage: '/assets/images/mexico.jpg',
+      currentDate: 'Oct 25, 2017',
+      currentTitle: 'Discover the Street Foods of Mexico',
+      currentDescription: 'Savor the rich and spicy street foods of Mexico.',
+      currentAuthor: 'Jing Yuan Tuan',
+      currentCategory: 'Food, Culture',
+      currentContent: 'Mexican street food is vibrant, delicious, and deeply rooted in the culture. From tacos to tamales, each dish tells a story.',
+      currentQuote: 'Street food is the heart and soul of Mexican cuisine.',
+      currentArticleImage: '/assets/images/mexican-food.jpg',
+      currentAdditionalContent: 'Discover famous street foods like elote, churros, and a variety of tacos.',
+      currentAdditionalImages: ['/assets/images/mexico1.jpg', '/assets/images/mexico2.jpg']
     }
   ];
 
