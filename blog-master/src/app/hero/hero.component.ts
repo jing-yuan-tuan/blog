@@ -17,26 +17,11 @@ export class HeroComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  fadeOutAndChangeImage(next: boolean) {
-    const imageElement = document.querySelector('.hero-image') as HTMLElement;
-    if (imageElement) {
-      imageElement.style.opacity = '0';
-      setTimeout(() => {
-        if (next) {
-          this.next();
-        } else {
-          this.prev();
-        }
-        imageElement.style.opacity = '1';
-      }, 500);
-    }
-  }
-
   onPrevClick() {
-    this.fadeOutAndChangeImage(false);
+    this.prev();
   }
 
   onNextClick() {
-    this.fadeOutAndChangeImage(true);
+    this.next();
   }
 }

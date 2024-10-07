@@ -1,18 +1,18 @@
 <div class="main-container">
     <div class="left-half">
       <app-hero 
-        [currentImage]="currentContentSet.currentImage" 
-        [currentDate]="currentContentSet.currentDate" 
-        [currentTitle]="currentContentSet.currentTitle" 
-        [currentDescription]="currentContentSet.currentDescription" 
-        [prev]="prev.bind(this)" 
-        [next]="next.bind(this)">
-      </app-hero>
+  [currentImage]="currentContentSet.currentImage"
+  [currentDate]="currentContentSet.currentDate"
+  [currentTitle]="currentContentSet.currentTitle"
+  [currentDescription]="currentContentSet.currentDescription"
+  [prev]="prev.bind(this)"
+  [next]="next.bind(this)">
+</app-hero>
+
     </div>
     <div class="right-half">
       <div class="content-inner">
         <div class="article-header">
-          <h2>{{ currentContentSet.currentAuthor }}</h2>
           <p>{{ currentContentSet.currentCategory }}</p>
         </div>
         <div class="article-content">

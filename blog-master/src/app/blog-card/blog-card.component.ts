@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./blog-card.component.css']
 })
 export class BlogCardComponent {
-  @Input() blog: any;
+  @Input() blog: any; 
 }

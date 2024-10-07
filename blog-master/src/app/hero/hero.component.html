@@ -1,13 +1,11 @@
 <div class="hero-container">
-  <div class="gradient-overlay"></div>
-  <img [src]="currentImage" alt="Main Image" class="hero-image">
+  <img class="hero-image" [src]="currentImage" alt="Hero Image">
   <div class="image-overlay">
-    <p>{{ currentDate }}</p>
-    <h1>{{ currentTitle }}</h1>
-    <p>{{ currentDescription }}</p>
+    <h1 class="hero-title">{{ currentTitle }}</h1>
+    <p class="hero-description">{{ currentDescription }}</p>
     <div class="nav-buttons">
-      <button class="btn btn-custom" (click)="onPrevClick()">&#8249; Previous</button>
-      <button class="btn btn-custom" (click)="onNextClick()">Next &#8250;</button>
-    </div>    
+      <button class="btn-custom" (click)="prev()">&#8249; Previous</button>
+      <button class="btn-custom" (click)="next()">Next &#8250;</button>
+    </div>
   </div>
 </div>

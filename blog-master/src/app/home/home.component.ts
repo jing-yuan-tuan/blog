@@ -8,46 +8,54 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   contentSets = [
     {
-      currentImage: '/assets/images/mountains.jpg',
-      currentDate: 'Mar 20, 2020',
-      currentTitle: 'Exploring the Mountains of Iceland',
-      currentDescription: 'Experience the beauty of the untouched wilderness in Iceland.',
-      currentAuthor: 'Jing Yuan Tuan',
-      currentCategory: 'Nature, Exploration',
-      currentContent: 'Exploring the rugged terrain of Iceland is a once-in-a-lifetime opportunity. The vast landscapes and breathtaking views make it an unforgettable journey.',
-      currentQuote: 'The beauty of Iceland lies in its untouched wilderness and breathtaking landscapes.',
-      currentArticleImage: '/assets/images/iceland.jpg',
-      currentAdditionalContent: 'From glaciers to volcanic hot springs, Iceland offers a unique variety of natural attractions.',
-      currentAdditionalImages: ['/assets/images/landscape1.jpg', '/assets/images/landscape2.jpg']
+      currentImage: 'assets/images/doggo.jpeg',
+      currentDate: 'Mar 10, 2023',
+      currentTitle: 'The Rise of Artificial Intelligence',
+      currentDescription: 'Discover how AI is transforming industries across the world.',
+      currentCategory: 'Technology, AI',
+      currentContent: 'Artificial Intelligence has rapidly evolved over the past decade, reshaping industries...',
+      currentQuote: 'AI will be the defining technology of the 21st century, changing how we work and live.',
+      currentArticleImage: 'assets/images/doggo.jpeg',
+      currentAdditionalContent: 'Explore how AI is powering innovations such as self-driving cars...',
+      currentAdditionalImages: ['assets/images/doggo.jpeg', 'assets/images/doggo.jpeg']
     },
     {
-      currentImage: '/assets/images/europe.jpg',
-      currentDate: 'Apr 15, 2021',
-      currentTitle: 'Your Trip Across Europe the Right Way',
-      currentDescription: 'Travel across Europe and explore historical wonders.',
-      currentAuthor: 'Jing Yuan Tuan',
-      currentCategory: 'Travel, Adventure',
-      currentContent: 'Europe is a diverse continent with so much to explore, from iconic cities to quaint villages.',
-      currentQuote: 'Traveling across Europe gives you a taste of culture, history, and adventure.',
-      currentArticleImage: '/assets/images/europe-trip.jpg',
-      currentAdditionalContent: 'Discover famous landmarks, sample incredible food, and meet people from all walks of life.',
-      currentAdditionalImages: ['/assets/images/europe1.jpg', '/assets/images/europe2.jpg']
+      currentImage: 'assets/images/doggo.jpeg',
+      currentDate: 'Apr 5, 2023',
+      currentTitle: 'Cloud Computing: The Backbone of Modern Technology',
+      currentDescription: 'How cloud computing is changing the way businesses operate.',
+      currentCategory: 'Technology, Cloud Computing',
+      currentContent: 'Cloud computing has become the backbone of modern technology...',
+      currentQuote: 'Cloud computing is not just a technology—it\'s a game-changer for businesses of all sizes.',
+      currentArticleImage: 'assets/images/doggo.jpeg',
+      currentAdditionalContent: 'Explore the major cloud service providers, their services, and how cloud computing...',
+      currentAdditionalImages: ['assets/images/doggo.jpeg', 'assets/images/doggo.jpeg']
     },
     {
-      currentImage: '/assets/images/food.jpg',
-      currentDate: 'May 5, 2019',
-      currentTitle: 'A Taste of Italy: Culinary Journey',
-      currentDescription: 'Experience the culinary delights of Italy.',
-      currentAuthor: 'Jing Yuan Tuan',
-      currentCategory: 'Food, Cuisine',
-      currentContent: 'Italian cuisine is world-renowned for its rich flavors and comforting dishes. From pasta to pizza, each dish has its own story.',
-      currentQuote: 'Good food brings people together and makes every experience special.',
-      currentArticleImage: '/assets/images/italian-food.jpg',
-      currentAdditionalContent: 'Join us on a journey through Italy\'s iconic culinary scene, savoring authentic flavors.',
-      currentAdditionalImages: ['/assets/images/food1.jpg', '/assets/images/food2.jpg']
+      currentImage: 'assets/images/doggo.jpeg',
+      currentDate: 'Jul 22, 2022',
+      currentTitle: 'The Internet of Things (IoT): Connecting the World',
+      currentDescription: 'Learn about the Internet of Things and how it\'s reshaping our everyday lives.',
+      currentCategory: 'Technology, IoT',
+      currentContent: 'The Internet of Things (IoT) is all about connecting physical devices to the internet...',
+      currentQuote: 'IoT is the bridge between digital and physical worlds, creating a smart, interconnected system.',
+      currentArticleImage: 'assets/images/doggo.jpeg',
+      currentAdditionalContent: 'Discover how IoT is being used in various sectors, from healthcare and agriculture...',
+      currentAdditionalImages: ['assets/images/doggo.jpeg', 'assets/images/doggo.jpeg']
+    },
+    {
+      currentImage: 'assets/images/doggo.jpeg',
+      currentDate: 'Feb 18, 2023',
+      currentTitle: 'Virtual Reality: The Future of Immersive Experiences',
+      currentDescription: 'Explore the impact of Virtual Reality on gaming, education, and more.',
+      currentCategory: 'Technology, Virtual Reality',
+      currentContent: 'Virtual Reality (VR) technology has been steadily advancing, providing users with new experiences...',
+      currentQuote: 'VR is redefining what is possible in education, gaming, and entertainment.',
+      currentArticleImage: 'assets/images/doggo.jpeg',
+      currentAdditionalContent: 'Learn about the most popular VR devices and the companies driving the VR industry...',
+      currentAdditionalImages: ['assets/images/doggo.jpeg', 'assets/images/doggo.jpeg']
     }
-    // Add more content as needed
-  ];
+  ]; 
 
   currentIndex = 0;
 
